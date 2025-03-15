@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/ds2025"
+		},
+		{
+			"name": "blink",
+			"path": "../../blink"
+		},
+		{
+			"path": "../../hello"
+		},
+		{
+			"path": "../../blink-main"
+		},
+		{
+			"name": "Traffic-light",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
