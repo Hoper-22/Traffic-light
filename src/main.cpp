@@ -5,8 +5,8 @@
 const int redPin = 13;
 const int yellowPin = 12;
 const int greenPin = 11;
-const int firstButton = 3;
-const int secondButton = 4;
+const int firstButton = 4;
+const int secondButton = 3;
 const int thirdButton = 2;
 
 volatile bool firstButtonState = false;
