@@ -62,7 +62,7 @@ void setup() {
   pinMode(secondButton, INPUT_PULLUP);
   pinMode(thirdButton, INPUT_PULLUP);
 
-  attachInterrupt(digitalPinToInterrupt(firstButton), firstint, CHANGE);
+  attachPCINT(digitalPinToPCINT(firstButton), firstint, CHANGE);
   attachInterrupt(digitalPinToInterrupt(secondButton), secondint, CHANGE);
   attachInterrupt(digitalPinToInterrupt(thirdButton), thirdint, CHANGE);
 
